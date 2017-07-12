@@ -1,0 +1,25 @@
+{
+  "name": "http-gzip-maybe",
+  "description": "Compress an HTTP response if the client has headers that allow it",
+  "repository": "yoshuawuyts/http-gzip-maybe",
+  "version": "1.0.0",
+  "scripts": {
+    "deps": "dependency-check . && dependency-check . --extra --no-dev",
+    "start": "node .",
+    "test": "standard && npm run deps"
+  },
+  "dependencies": {
+    "readable-stream": "^2.3.3"
+  },
+  "devDependencies": {
+    "dependency-check": "^2.9.1",
+    "standard": "^10.0.2",
+    "tape": "^4.7.0"
+  },
+  "keywords": [
+    "compress",
+    "maybe",
+    "gunzip-maybe"
+  ],
+  "license": "MIT"
+}
